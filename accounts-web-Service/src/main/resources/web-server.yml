@@ -1,0 +1,16 @@
+spring.application.name: accounts-web-service
+server.port: 3333
+
+info.app.name: accounts-web-service
+info.app.description: This is my first spring boot application
+info.app.version: 1.0.0
+
+#  Discovery Server Access
+#  1. DEV ONLY: Reduce the lease renewal interval to speed up registration
+#  2. Define URL of registration server (defaultZone)
+eureka.instance.prefer-ip-address: true
+eureka.client.serviceUrl.defaultZone: http://localhost:1111/eureka/
+
+# Enable actuator access without security checks - DEVELOPEMENT ONLY
+management.security.enabled: false
+management.endpoints.web.exposure.include: "*"
