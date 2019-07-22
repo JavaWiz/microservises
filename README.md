@@ -1,8 +1,8 @@
 This examples will help you to learn the basics of microservices and microservices architectures with Spring Boot.
 
-#Introduction to Spring Cloud Netflix – Eureka
+# Introduction to Spring Cloud Netflix – Eureka
 
-##Overview
+## Overview
 
 we’ll introduce client-side service discovery via "Spring Cloud Netflix Eureka".
 
